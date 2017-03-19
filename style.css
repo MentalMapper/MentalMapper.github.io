@@ -1,11 +1,11 @@
 .wrapper{
     width:600;
-    background:darkblue;
+    background:Darkblue;
     maring: 0 auto 0 auto;
 }
 .heading{
-height:100px:
-background:red;
+height:50px:
+background:darkblue;
 padding:20px;
 text-align: center;
 }
@@ -38,6 +38,13 @@ color:black;
 text-decoration:underline;
 }
 
+.center{
+    min-height: 800px;
+    float: none;
+    text-align: center;
+    align-self: center;
+}
+
 .content{
 min-height:800px;
 background:#ddd;
@@ -48,7 +55,7 @@ text-align:center
 
 .sidebar{
 text-align:center;
-width: 200px;
+width: 400px;
 float:right;
 background:lightblue;
 min-height: 800px;
