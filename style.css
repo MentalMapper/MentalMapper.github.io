@@ -18,6 +18,13 @@ border-radius:20px;
 padding;10px;
 font-family:impact;
 font-size:15pt;
+border:1px solid black;
+}
+
+p{
+margin-top:5;
+font-family:georgia;
+padding;10px
 }
 
 .navigation ul{
