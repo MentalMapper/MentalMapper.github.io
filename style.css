@@ -18,13 +18,6 @@ border-radius:20px;
 padding;10px;
 font-family:impact;
 font-size:15pt;
-border:1px solid black;
-}
-
-p{
-margin-top:5;
-font-family:georgia;
-padding;10px
 }
 
 .navigation ul{
@@ -68,4 +61,55 @@ height40px;
 color:white;
 text-align:center;
 min-height: 10px;
+}
+
+.rectangle {
+  -webkit-animation: flicker 1s infinite;
+  width:100;
+  height:800px;
+  background:gray;
+}
+
+@-webkit-keyframes flicker
+{  
+2.50%	{opacity:0;}
+5.00%	{opacity:1;}
+7.50%	{opacity:0;}
+10.00%	{opacity:1;}
+12.50%	{opacity:0;}
+15.00%	{opacity:1;}
+17.50%	{opacity:0;}
+20.00%	{opacity:1;}
+22.50%	{opacity:0;}
+25.00%	{opacity:1;}
+27.50%	{opacity:0;}
+30.00%	{opacity:1;}
+32.50%	{opacity:0;}
+35.00%	{opacity:1;}
+37.50%	{opacity:0;}
+40.00%	{opacity:1;}
+42.50%	{opacity:0;}
+45.00%	{opacity:1;}
+47.50%	{opacity:0;}
+50.00%	{opacity:1;}
+52.50%	{opacity:0;}
+55.00%	{opacity:1;}
+57.50%	{opacity:0;}
+60.00%	{opacity:1;}
+62.50%	{opacity:0;}
+65.00%	{opacity:1;}
+67.50%	{opacity:0;}
+70.00%	{opacity:1;}
+72.50%	{opacity:0;}
+75.00%	{opacity:1;}
+77.50%	{opacity:0;}
+80.00%	{opacity:1;}
+82.50%	{opacity:0;}
+85.00%	{opacity:1;}
+87.50%	{opacity:0;}
+90.00%	{opacity:1;}
+92.50%	{opacity:0;}
+95.00%	{opacity:1;}
+97.50%	{opacity:0;}
+100.00%	{opacity:1;}
 }
